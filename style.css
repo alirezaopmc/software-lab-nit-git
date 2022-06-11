@@ -8,7 +8,6 @@ button {
   display: inline-block;
   font-size: 16px;
 }
-
 /*--------------------
         Inputs
 ---------------------*/
@@ -45,4 +44,25 @@ button {
   transition: box-shadow 0.1s ease, border-color 0.1s ease, -webkit-box-shadow 0.1s ease;
   -webkit-box-shadow: none;
   box-shadow: none;
+}
+
+select {
+  border: black 1px dotted;
+  padding: 5px 5px;
+  margin: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  display: flex;
+  flex-direction: column;
+}
+option {
+  border: black 1px solid;
+  color: blue;
+  padding: 3px 3px;
+  margin: 3px 3px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
